@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Kitchen to Product - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Progress Indicator -->
+    <div class="progress-container" aria-hidden="true">
+        <div class="progress-icon" id="progressIcon" title="Progress icon">🌾</div>
+        <div class="progress-trail" id="progressTrail" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-fill"></div>
+        </div>
+    </div>
+
+    <!-- Food-themed Sidebar Navigation -->
+    <nav class="food-nav" aria-label="Section Navigation">
+        <button class="nav-item" data-section="hero" aria-label="Hero">🧁</button>
+        <button class="nav-item" data-section="skills" aria-label="Skills">⭐</button>
+        <button class="nav-item" data-section="projects" aria-label="Projects">🍞</button>
+        <button class="nav-item" data-section="case-studies" aria-label="Case Studies">🥐</button>
+        <button class="nav-item" data-section="articles" aria-label="Articles">🍵</button>
+        <button class="nav-item" data-section="contact" aria-label="Contact">🍯</button>
+    </nav>
+
+    <!-- Floating Background Elements (subtle, decorative) -->
+    <div class="floating-bg" aria-hidden="true">
+        <div class="floating-element">🌾</div>
+        <div class="floating-element">🥄</div>
+        <div class="floating-element">🍞</div>
+        <div class="floating-element">🥐</div>
+        <div class="floating-element">✨</div>
+        <div class="floating-element">⭐</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section" tabindex="-1">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    From Kitchen Magic to Product Innovation
+                </h1>
+                <div class="career-progression" aria-label="Career progression">
+                    <span class="career-item strikethrough">Dessert Platter</span>
+                    <span class="career-item strikethrough">Baker</span>
+                    <span class="career-item strikethrough">Pastry Chef</span>
+                    <span class="career-item strikethrough">Food & Beverage Operations Specialist</span>
+                    <span class="career-item current">PM & Entrepreneur</span>
+                </div>
+                <p class="hero-description">
+                    Combining precision from the pastry kitchen with strategic thinking in product management. I bring a unique perspective that values both creativity and data-driven decision making, having successfully transitioned from culinary leadership to driving digital product innovation.
+                </p>
+                <button class="btn btn--primary" data-scroll="skills">Start Journey 🚀</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Expertise Section -->
+    <section id="skills" class="skills-section" tabindex="-1">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">Core competencies gained through culinary leadership and product management training</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card" data-animate>
+                    <h3>Product Management</h3>
+                    <ul class="pill-list">
+                        <li>Project Management (PMP Certified)</li>
+                        <li>User Research</li>
+                        <li>Market Research</li>
+                        <li>Agile & Iterative Methodologies</li>
+                        <li>Product Development</li>
+                        <li>User-Centric Thinking</li>
+                        <li>A/B Testing</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-animate>
+                    <h3>Analytics & Strategy</h3>
+                    <ul class="pill-list">
+                        <li>Data Analysis (Power BI, Tableau)</li>
+                        <li>Performance Management</li>
+                        <li>Strategic Thinking</li>
+                        <li>Communication</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-animate>
+                    <h3>Leadership</h3>
+                    <ul class="pill-list">
+                        <li>Stakeholder Management</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="edu-grid">
+                <div class="edu-item card" data-animate>
+                    <div class="edu-icon">🎓</div>
+                    <div>
+                        <h4>Baking & Pastry Arts, A.S.</h4>
+                        <p>Sullivan University</p>
+                    </div>
+                </div>
+                <div class="edu-item card" data-animate>
+                    <div class="edu-icon">📜</div>
+                    <div>
+                        <h4>Project Management Professional (PMP)</h4>
+                        <p>Project Management Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section" tabindex="-1">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Strategic initiatives showcasing impact</p>
+            <div class="projects-grid">
+                <article class="project-card card" data-animate>
+                    <div class="project-icon">🥘</div>
+                    <h3>Nationwide Training Program Design</h3>
+                    <p class="muted">Acosta - Fresh Operations Specialist • Jan 2023 - Current</p>
+                    <p>Designed and delivered training programs for 16+ retail locations focusing on food safety and quality assurance</p>
+                    <ul class="meta-list">
+                        <li>📈 53% increase in training completion</li>
+                        <li>⚡ 15% process efficiency improvement</li>
+                    </ul>
+                    <div class="tags">
+                        <span>Training Design</span><span>Data Analytics</span><span>Process Improvement</span><span>Cross-functional Leadership</span>
+                    </div>
+                </article>
+
+                <article class="project-card card" data-animate>
+                    <div class="project-icon">🐼</div>
+                    <h3>Dessert Catering Product Development</h3>
+                    <p class="muted">Panda J's - Founder & Product Developer • Jan 2019 - Dec 2024</p>
+                    <p>Founded and grew dessert catering company through iterative product development and customer feedback loops</p>
+                    <ul class="meta-list">
+                        <li>🚀 Built profitable business using Agile methodologies</li>
+                        <li>🎯 A/B testing for validation</li>
+                    </ul>
+                    <div class="tags">
+                        <span>Product Development</span><span>Market Research</span><span>A/B Testing</span><span>Stakeholder Management</span>
+                    </div>
+                </article>
+
+                <article class="project-card card" data-animate>
+                    <div class="project-icon">👩‍🍳</div>
+                    <h3>Culinary Program Development</h3>
+                    <p class="muted">Mesa Kids Cooking School - Culinary Instructor • Apr 2019 - Aug 2021</p>
+                    <p>Designed tailored culinary programs with adaptive instructional techniques and hands-on learning approaches</p>
+                    <ul class="meta-list">
+                        <li>📊 433% increase in student enrollment</li>
+                        <li>✨ Program improvements through scaling</li>
+                    </ul>
+                    <div class="tags">
+                        <span>Curriculum Design</span><span>User-Centered Learning</span><span>Program Scaling</span><span>Mentorship</span>
+                    </div>
+                </article>
+
+                <article class="project-card card" data-animate>
+                    <div class="project-icon">🍳</div>
+                    <h3>Kitchen Operations Optimization</h3>
+                    <p class="muted">Lydia House - Kitchen Operations Manager • Jul 2016 - Jan 2019</p>
+                    <p>Directed kitchen operations and trained cross-functional teams, driving revenue growth through workflow optimization</p>
+                    <ul class="meta-list">
+                        <li>💰 400% revenue increase</li>
+                        <li>📉 20% waste reduction through process standardization</li>
+                    </ul>
+                    <div class="tags">
+                        <span>Operations Management</span><span>Process Optimization</span><span>Team Leadership</span><span>Cost Management</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies-section" tabindex="-1">
+        <div class="container">
+            <h2 class="section-title">Case Studies</h2>
+            <p class="section-subtitle">Deep dives into strategy and execution</p>
+            <div class="case-studies-grid">
+                <article class="case-card card" data-animate>
+                    <div class="case-icon">📱</div>
+                    <h3>Instagram Menu Tab Feature</h3>
+                    <p class="muted">Product Strategy Case Study</p>
+                    <p>Designed native menu management feature for Instagram business profiles to help small food businesses showcase dynamic menus.</p>
+                    <button class="btn btn--secondary btn--sm" data-open="instagram-menu-tab">Read Case Study 📖</button>
+                </article>
+                
+                <article class="case-card card" data-animate>
+                    <div class="case-icon">🥘</div>
+                    <h3>Henny Penny Installation & Training Program</h3>
+                    <p class="muted">Acosta</p>
+                    <p>Standardized training across multiple markets while ensuring compliance and performance consistency.</p>
+                    <button class="btn btn--secondary btn--sm" data-open="henny-penny">Read Case Study 📖</button>
+                </article>
+                
+                <article class="case-card card" data-animate>
+                    <div class="case-icon">🍽️</div>
+                    <h3>Food & Beverage Strategy Consultation</h3>
+                    <p class="muted">Grab'a</p>
+                    <p>Enhanced offerings using customer feedback analysis and competitive research to optimize event experience.</p>
+                    <button class="btn btn--secondary btn--sm" data-open="graba">Read Case Study 📖</button>
+                </article>
+                
+                <article class="case-card card" data-animate>
+                    <div class="case-icon">🐼</div>
+                    <h3>Panda J's: From Concept to Market Success</h3>
+                    <p class="muted">Panda J's (Founded)</p>
+                    <p>Iterative product development journey using A/B testing, feedback loops, and market validation.</p>
+                    <button class="btn btn--secondary btn--sm" data-open="panda-js">Read Case Study 📖</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="articles-section" tabindex="-1">
+        <div class="container">
+            <h2 class="section-title">Curated Insights</h2>
+            <p class="section-subtitle">Articles that inspire product thinking</p>
+            <div class="articles-grid">
+                <article class="article-card card" data-animate>
+                    <div class="article-icon">📚</div>
+                    <h3>The Art of Product Roadmapping</h3>
+                    <p class="muted">Harvard Business Review</p>
+                    <p>Strategic planning insights that translate from menu planning to product strategy.</p>
+                </article>
+                <article class="article-card card" data-animate>
+                    <div class="article-icon">🍳</div>
+                    <h3>From Kitchen to Keyboard: Leadership Lessons</h3>
+                    <p class="muted">Medium</p>
+                    <p>How high-pressure culinary environments prepare you for fast-paced product teams.</p>
+                </article>
+                <article class="article-card card" data-animate>
+                    <div class="article-icon">🔍</div>
+                    <h3>User Research: Beyond the Recipe</h3>
+                    <p class="muted">UX Collective</p>
+                    <p>Applying customer obsession from hospitality to digital product development.</p>
+                </article>
+                <article class="article-card card" data-animate>
+                    <div class="article-icon">⚡</div>
+                    <h3>Agile in High-Pressure Environments</h3>
+                    <p class="muted">Product School</p>
+                    <p>Lessons from managing kitchen operations during peak service times.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" tabindex="-1">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Ready to bring culinary precision and creativity to your product team!</p>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate>
+                    <div class="info-row">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@domain.com">your.email@domain.com</a>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-icon">💼</div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-icon">📄</div>
+                        <div>
+                            <h4>Resume</h4>
+                            <button class="btn btn--outline btn--sm" id="downloadResume">Download PDF 📥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form card" data-animate>
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="4" required placeholder="Tell me about your product team and how I can help!"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message 💕</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Modal (hidden by default) -->
+    <div id="caseStudyModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="caseStudyTitle">
+        <div class="modal__overlay" data-close></div>
+        <div class="modal__content card">
+            <button class="modal__close btn btn--outline btn--sm" data-close aria-label="Close">Close ✖</button>
+            <div id="caseStudyContent"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
